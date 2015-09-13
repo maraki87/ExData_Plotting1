@@ -10,4 +10,3 @@ View(DATAuseful)
 png(filename = "plot1.png", width = 480, height = 480)
 with(DATAuseful, hist(as.numeric(DATAuseful$Global_active_power), bg = "white", col = "red", main = "Global active power", xlab = "Global active power (kilowatts)"))
 dev.off()
-
